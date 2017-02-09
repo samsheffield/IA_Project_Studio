@@ -1,7 +1,7 @@
 body {
 	font-family: 'Trebuchet', sans-serif;
 	font-weight:300;
-	font-size: 1em;
+	font-size: 1.2em;
 	color: #222;
 	background: #fff;
 	margin: 0;
@@ -16,6 +16,7 @@ body {
 	height: 100%;
 	clear:both;
   	text-align: center;
+
 }
 
 #header {
@@ -44,15 +45,8 @@ body {
 	color: #fff;
 }
 
-#mainL {
-	max-width: 660px;
-	margin-right: 10px;
-	text-align: left;
-  	display: inline-block;
-} 
-
-#mainR {
-	max-width: 660px;
+#main {
+	max-width: 1000px;
 	margin-right: 10px;
 	text-align: left;
   	display: inline-block;
@@ -60,7 +54,7 @@ body {
 
 .content{
 	text-align: justify;
-	width: 850px;
+	width: 1050px;
 	display: inline-block;
 }
 
@@ -104,7 +98,7 @@ a:hover {
 	text-decoration: none;
 }
 
-#mainL a, #mainR a, #header h1 a, #contentheader a {
+#main a, #mainR a, #header h1 a, #contentheader a {
 	text-decoration: none;
 }
 
@@ -118,10 +112,11 @@ a:hover {
 }
 
 .calendar, .calendarActive, .calendarMandatory, .calendarP1Mandatory, .calendarP2Mandatory, .calendarP1, .calendarP2 {
-	width: 595px;
+	min-width: 800px;
+    max-width: 1200px;
 	background-color:#333;
 	margin-bottom:10px;
-	padding: 25px 20px;
+	padding: 30px 20px;
 	color: #fff;
 }
 
